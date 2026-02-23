@@ -1,12 +1,12 @@
 ---
 applications:
-  - name: spring-python-demo
+  - name: spring-python-demo-5
     memory: 1G
     disk_quota: 2G
     buildpacks:
       - python_buildpack
       - java_buildpack_offline
-    path: deploy
+    path: deploy-1
     env:
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 21.+ } }'
       PYTHON_EXECUTABLE: /home/vcap/app/python_env/bin/python
