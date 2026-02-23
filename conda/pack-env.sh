@@ -5,7 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 
 echo "Creating conda environment from environment.yml..."
-conda env create -f "$SCRIPT_DIR/environment.yml" --prefix "$SCRIPT_DIR/python_env"
+CONDA_SUBDIR=linux-64 conda env create -f "$SCRIPT_DIR/environment.yml" --prefix "$SCRIPT_DIR/python_env"
 
 echo "Packing conda environment..."
 conda pack -p "$SCRIPT_DIR/python_env" -o "$PROJECT_DIR/python_env.tar.gz"
