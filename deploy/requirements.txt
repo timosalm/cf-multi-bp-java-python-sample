@@ -1,2 +1,0 @@
-# Minimal requirements for python_buildpack detection.
-# The actual Python environment with pandas is provided via conda-pack.
