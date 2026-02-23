@@ -5,6 +5,7 @@ target/
 !**/src/test/**/target/
 .DS_Store
 deploy/
+python_env.tar.gz
 
 ### STS ###
 .apt_generated
