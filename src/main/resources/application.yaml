@@ -1,0 +1,7 @@
+server:
+  port: ${PORT:8080}
+
+python:
+  executable: ${PYTHON_EXECUTABLE:python3}
+  script:
+    path: ${PYTHON_SCRIPT_PATH:scripts/hello.py}

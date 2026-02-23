@@ -1,0 +1,8 @@
+target/
+deploy/
+python_env.tar.gz
+conda/python_env/
+*.class
+*.jar
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
