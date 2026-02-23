@@ -14,7 +14,7 @@ mkdir -p "$DEPLOY_DIR/scripts"
 
 # Copy the Spring Boot JAR
 cp target/spring-python-demo-0.0.1-SNAPSHOT.jar "$DEPLOY_DIR/"
-(cd "$DEPLOY_DIR" && java -Djarmode=tools -jar spring-python-demo-0.0.1-SNAPSHOT.jar extract)
+(cd "$DEPLOY_DIR" && jar xf spring-python-demo-0.0.1-SNAPSHOT.jar)
 rm "$DEPLOY_DIR"/spring-python-demo-0.0.1-SNAPSHOT.jar
 
 # Copy Python script
