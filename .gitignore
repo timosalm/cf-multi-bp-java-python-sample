@@ -6,6 +6,7 @@ target/
 .DS_Store
 deploy/
 python_env.tar.gz
+.claude
 
 ### STS ###
 .apt_generated
